@@ -1,13 +1,20 @@
 ***
+
 # Konstantin Zhiliaev
 Junior JavaScript/Front-end engineer 
+
 ***
+
 ### Contacts
 **Location:** Moscow; **e-mail:** k926227@gmail.com; **Telegram:**@k926227
+
 ***
+
 ### Objective
 Results-driven software engineer, seeking to use proven JavaScript/Front-end skills to deliver coding excellence to youCompany, Inc. Have developed 2 websites and 1 webapp. Contributed to 5 GitHub projects.
+
 ***
+
 ### Skills 
 * JavaScript
 * HTML5
@@ -17,8 +24,11 @@ Results-driven software engineer, seeking to use proven JavaScript/Front-end ski
 * Gulp
 * Figma, Avocode
 * BEM, OOP
+
 ***
+
 ### Code sample
+
 ```
 /**
  * Returns the largest number value in the given array
@@ -43,14 +53,20 @@ let maxNumber = function(arr) {
 console.log(maxNumber(['Hello', '35', 'World', 15, {}])); //35
 
 ```
+
 ***
+
 ### Work Experiance
 2004 – Civil Service and scientific activities in area of developing building codes and construction product standards.
+
 ***
+
 ### Education
 * 2003-2005 Ph.D. of Economic Sciences. Institute of regional economic researches, Moscow.
 * 1997-2002 Specialist degree in Economics. Volgograd state technical university, Volgograd, Russia.
+
 ***
+
 ### Languages
 English: B1; Russian: native proficiency.
 
