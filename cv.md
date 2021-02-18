@@ -6,7 +6,7 @@ Junior JavaScript/Front-end engineer
 ***
 
 ### Contacts
-**Location:** Moscow; **e-mail:** k926227@gmail.com; **Telegram:**@k926227
+**Location:** Moscow; **E-mail:** k926227@gmail.com; **Telegram:**@k926227
 
 ***
 
