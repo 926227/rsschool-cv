@@ -1,0 +1,130 @@
+<!doctype  html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-Compatible" content="ea=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Konstantin Zhiliatv | CV</title>
+</head>
+<body>
+    <header class="header">
+      <div class="header__left-side-wrapper">
+        <h1 class="header__title">
+          Konstantin Zhiliaev
+        </h1>
+        <p class="header__profession-title">
+            Junior JavaScript/Front-end engineer
+        </p>
+        <div class="header__contacts">
+            <p class="header__address">
+                <span class="header__address header__contacts--bold">
+                    Address: 
+                </span>
+                Moscow, MOW, 143443
+            </p>
+            <p class="header__telegram">
+                <span class="header__telegram header__contacts--bold">
+                    Telegram: 
+                </span>
+                @k926227
+            </p>
+            <p class="header__email">
+                <span class="header__email header__contacts--bold">
+                    Email: 
+                </span>
+                k926227@gmail.com
+            </p>
+        </div>
+        </div>
+      <div class="header__right-side-wrapper">
+        <img class="header__photo" src="" alt="CV photo" >
+      </div>
+    </header>
+
+    <section class="cv-content">
+        <div class="container">
+          <div class="cv-section">
+            <h2 class="cv-section__title visually-hidden">
+              Objective
+            </h2>
+            <p class="cv-section__content">
+              Results-driven software engineer, seeking to use proven JavaScript/Front-end skills to deliver coding excellence to youCompany, Inc. Have developed 2 websites and 1 webapp. Contributed to 5 GitHub projects.
+            </p>
+          </div>
+          <div class="cv-section">
+            <h2 class="cv-section__title">
+              Skills
+            </h2>
+            <ul class="cv-section__content list">
+              <li class="list__item">JavaScript</li>
+              <li class="list__item">HTML5</li>
+              <li class="list__item">CSS3, Bootstrap, Sass</li>
+              <li class="list__item">PHP7</li>
+              <li class="list__item">Git</li>
+              <li class="list__item">Gulp</li>
+              <li class="list__item">Figma, Avocode</li>
+              <li class="list__item">BEM, OOP</li>
+            </ul>
+          </div>
+          <div class="cv-section">
+            <h2 class="cv-section__title">
+              Code sample
+            </h2>
+            <code class="cv-section__content">
+              /**
+              * Returns the largest number value in the given array
+              * @function maxNumber
+              * @param  {Array} arr
+              */
+              let maxNumber = function(arr) {
+                  if (!Array.isArray(arr)) {
+                      return;
+                  }
+              
+                  let max = +arr[0];
+                  arr.forEach( function (number) { 
+                      number = +number;
+                      if (isNaN(number)) return;
+                      max > number ? max : max = number;
+                  });
+                  return max;
+              }
+             
+              console.log(maxNumber(['Hello', '35', 'World', 15, {}])); //35
+            </code>
+          </div>
+          <div class="cv-section">
+            <h2 class="cv-section__title">
+              Work Experiance
+            </h2>
+            <p class="cv-section__content">
+              2004 – Civil Service and scientific activities in area of developing building codes and construction product standards.
+            </p>
+          </div>
+          <div class="cv-section">
+            <h2 class="cv-section__title">
+              Education
+            </h2>
+            <ul class="cv-section__content list">
+              <li class="list__item">
+                2003-2005 Ph.D. of Economic Sciences. Institute of regional economic researches, Moscow.
+              </li>
+              <li class="list__item">
+                1997-2002 Specialist degree in Economics. Volgograd state technical university, Volgograd, Russia.
+              </li>
+            </ul>
+          </div>
+          <div class="cv-section">
+            <h2 class="cv-section__title">
+              Languages
+            </h2>
+            <ul class="cv-section__content list">
+              <li class="list__item">English: B1;</li>
+              <li class="list__item">Russian: native proficiency.</li>
+            </ul>
+          </div>
+        </div>
+    </section>
+</body>
+</html>
