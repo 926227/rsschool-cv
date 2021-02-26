@@ -1,99 +1,140 @@
-
 body {
+    /* Typography */
     font-family: "Roboto", "Arial", sans-serif;
     font-size: 16px;
     letter-spacing: 1px;
 }
-.header {
-    color: #ffffff;
+
+.contacts {
+    padding: 0;
 }
+
 .contacts__item {
+    /* Positioning */
     margin-top: 0;
     margin-bottom: 5px;
-    color:#f0eaeae0;
-    
+
+    /* Typography */
+    list-style-type: none;
+    color: #f0eaeae0;
 }
+
 .contacts__item-name {
     font-weight: 700;
 }
-.header__title {
 
-    margin-top: 0;
-    margin-bottom: 5px;
+.cv-content__wrapper {
 
-    font-size:42px;
-    font-weight: 900;
-    letter-spacing: 2px;
-}
-.header__profession-title {
-    margin-top: 0;
-    margin-bottom: 50px;
-
-    font-size:20px;
-    font-weight: 400;
-    color:#f0eaeae0;
-}
-.header__photo {
-    position: absolute;
-    top: 0;
-    right: 0;
-
-    height: 100%;
-    width: auto;
-}
-.header__wrapper{
-    position: relative;
-
-    display: flex;
-    justify-content: space-between;
-
-    padding-top: 40px;
-    padding-bottom: 40px;
-    padding-left: 30px;
-
-
-    background-color: #373d48;
-}
-.cv-content__wrapper{
-    
+    /* Box-model */
     padding-top: 20px;
     padding-right: 20px;
     padding-bottom: 40px;
     padding-left: 40px;
 
-    color:#777676;
-
+    /* Typography */
+    color: #777676;
     background-color: #373d480a;
 }
+
 .cv-section__title {
+    /* Box-model */
     margin-top: 30px;
     margin-bottom: 0;
-    color:#000000;
+
+    /* Typography */
+    color: #000000;
 }
+
 .cv-section__content {
+    /* Box-model */
     margin: 0;
     padding-left: 0;
 }
-.cv-section__content--code{
+
+.cv-section__content--code {
+    /* Box-model */
     display: block;
     padding: 10px;
+
+    /* Typography */
     font-size: 12px;
     white-space: pre-line;
     border: 2px solid #bdb9b9;
     border-radius: 5px;
 }
+
 .footer__wrapper {
+    /* Box-model */
     padding: 40px;
+
+    /* Typography */
     font-size: 14px;
     background-color: #373d48;
 }
+
+.header {
+    color: #ffffff;
+}
+
+.header__title {
+    /* Positioning */
+    margin-top: 0;
+    margin-bottom: 5px;
+
+    /* Typography */
+    font-size: 42px;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+
+.header__profession-title {
+    /* Positioning */
+    margin-top: 0;
+    margin-bottom: 50px;
+
+    /* Typography */
+    font-size: 20px;
+    font-weight: 400;
+    color: #f0eaeae0;
+}
+
+.header__photo {
+    /* Positioning */
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    /* Box-model */
+    height: 100%;
+    width: auto;
+}
+
+.header__wrapper {
+    /* Positioning */
+    position: relative;
+
+    /* Box-model */
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 30px;
+
+    /* Typography */
+    background-color: #373d48;
+}
+
 .list {
     padding-left: 20px;
 }
+
+/* Util classes */
 .container {
+    /* Box-model */
     margin: 0 auto;
     width: 992px;
 }
+
 .visually-hidden {
     position: absolute;
     clip: rect(0 0 0 0);
@@ -101,3 +142,9 @@ body {
     height: 1px;
     margin: -1px;
 }
+
+/* Positioning */
+/* Box-model */
+/* Typography */
+/* Visual */
+/* Misc */
